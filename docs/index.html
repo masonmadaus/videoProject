@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DASH Player Demo</title>
+</head>
+<body>
+  <h1>My DASH Stream</h1>
+  <video id="videoPlayer" controls width="800"></video>
+
+  <!-- dash.js from CDN -->
+  <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+  <script>
+    // Path to your manifest file (same folder)
+    const url = 'manifest.mpd';
+    const player = dashjs.MediaPlayer().create();
+    player.initialize(
+      document.getElementById('videoPlayer'),
+      url,
+      true  // autoplay on load
+    );
+  </script>
+</body>
+</html>

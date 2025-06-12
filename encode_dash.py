@@ -8,7 +8,7 @@ import sys
 # Put your *absolute* input path here:
 INPUT_FILE = r"C:/Users/mason/Documents/Computer Networks/videoProject/catVideo.mp4"
 # And your output folder here:
-OUTPUT_DIR = r"C:/Users/mason/Documents/Computer Networks/videoProject/output_dash"
+OUTPUT_DIR = r"C:/Users/mason/Documents/Computer Networks/videoProject/docs"
 #
 # ───────────────────────────────────────────────────────────────────
 #
